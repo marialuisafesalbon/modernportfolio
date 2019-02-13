@@ -9,7 +9,7 @@
 body {
   @include background;
   background: $primary-color;
-  color: black;
+  color: white;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -31,12 +31,12 @@ h3 {
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(lighten($primary-color, 2), 0.3);
+    background: rgba(lighten($secondary-color, 2), 0.3);
   }
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
