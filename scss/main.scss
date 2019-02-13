@@ -9,7 +9,7 @@
 body {
   @include background;
   background: $primary-color;
-  color: white;
+  color: black;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -36,7 +36,7 @@ h3 {
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 

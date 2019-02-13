@@ -107,7 +107,7 @@
     }
 
     &.current > a {
-      color: yellow;
+      color: black;
     }
   }
 
@@ -123,7 +123,7 @@
     @include easeOut;
 
     &:hover {
-      color: yellow;
+      color: black;
     }
   }
 }
