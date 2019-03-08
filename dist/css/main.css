@@ -182,6 +182,13 @@ main {
     padding: 0.5rem;
     border-bottom: #ff0055 5px solid; }
 
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px; }
+  .projects .img {
+    width: 100%; }
+
 .main-footer {
   text-align: center;
   padding: 1rem;
