@@ -4,11 +4,14 @@
   "description": "Responsive Portfolio Website",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "FlairChicYsay",
   "license": "MIT",
+  "homepage": "https://marialuisafesalbon.github.io/modernportfolio",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
   }
 }
